@@ -20,6 +20,11 @@ namespace SinemaOtomasyonu
 
         private void btn_salon_ekle_Click(object sender, EventArgs e)
         {
+            if(string.IsNullOrEmpty(txt_salonNumara.Text))
+            {
+                return;
+            }
+
             bool result = salon_ekle();
 
             if (!result)

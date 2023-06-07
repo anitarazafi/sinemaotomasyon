@@ -68,6 +68,7 @@
             this.btn_koltuklar.TabIndex = 1;
             this.btn_koltuklar.Text = "Koltuklar";
             this.btn_koltuklar.UseVisualStyleBackColor = true;
+            this.btn_koltuklar.Click += new System.EventHandler(this.btn_koltuklar_Click);
             // 
             // AnaPencere
             // 

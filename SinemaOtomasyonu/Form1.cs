@@ -37,5 +37,11 @@ namespace SinemaOtomasyonu
             Form_Salon form_Salon = new Form_Salon();
             form_Salon.ShowDialog();
         }
+
+        private void btn_koltuklar_Click(object sender, EventArgs e)
+        {
+            Form_koltuk form_koltuk = new Form_koltuk();
+            form_koltuk.ShowDialog();
+        }
     }
 }
